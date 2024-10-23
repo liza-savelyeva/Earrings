@@ -3,46 +3,500 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Серёжки</title>
+    <title>Мои украшения</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <div class="ear">
-        <img src="img/1.jpg" alt="ear1">
-        <img src="img/2.jpg" alt="ear2">
-        <img src="img/3.jpg" alt="ear3">
+    <h1 class="text-center mt-5 mb-4">Мои украшения</h1>
+    <ul class="nav nav-pills mb-5 justify-content-md-center ms-3 ms-md-0" id="pills-tab" role="tablist">
+        <li class="nav-item me-3" role="presentation">
+          <button class="nav-link active rounded-5" id="pills-earrings-tab" data-bs-toggle="pill" data-bs-target="#pills-earrings" 
+          type="button" role="tab" aria-controls="pills-earrings" aria-selected="true">Серёжки</button>
+        </li>
+        <li class="nav-item me-3" role="presentation">
+          <button class="nav-link rounded-5" id="pills-pendants-tab" data-bs-toggle="pill" data-bs-target="#pills-pendants" 
+          type="button" role="tab" aria-controls="pills-pendants" aria-selected="false">Подвески</button>
+        </li>
+        <li class="nav-item me-3" role="presentation">
+          <button class="nav-link rounded-5" id="pills-bracelets-tab" data-bs-toggle="pill" data-bs-target="#pills-bracelets" 
+          type="button" role="tab" aria-controls="pills-bracelets" aria-selected="false">Браслеты</button>
+        </li>
+        <li class="nav-item me-3" role="presentation">
+            <button class="nav-link rounded-5" id="pills-necklaces-tab" data-bs-toggle="pill" data-bs-target="#pills-necklaces" 
+            type="button" role="tab" aria-controls="pills-necklaces" aria-selected="false">Цепочки/чокеры</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link rounded-5" id="pills-rings-tab" data-bs-toggle="pill" data-bs-target="#pills-rings" 
+            type="button" role="tab" aria-controls="pills-rings" aria-selected="false">Кольца</button>
+        </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-earrings" role="tabpanel" aria-labelledby="pills-earrings-tab" tabindex="0">
+            <div class="container text-center d-none d-md-block">
+                <div class="row">
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/1.jpg" alt="earrings1" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/2.jpg" alt="earrings2" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/3.jpg" alt="earrings3" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/4.jpg" alt="earrings4" class="img-fluid rounded-5">
+                  </div>
 
-        <img src="img/4.jpg" alt="ear4">
-        <img src="img/5.jpg" alt="ear5">
-        <img src="img/6.jpg" alt="ear6">
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/5.jpg" alt="earrings5" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/6.jpg" alt="earrings6" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/7.jpg" alt="earrings7" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/8.jpg" alt="earrings8" class="img-fluid rounded-5">
+                  </div>
 
-        <img src="img/7.jpg" alt="ear7">
-        <img src="img/8.jpg" alt="ear8">
-        <img src="img/9.jpg" alt="ear9">
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/9.jpg" alt="earrings9" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/10.jpg" alt="earrings10" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/11.jpg" alt="earrings11" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/12.jpg" alt="earrings12" class="img-fluid rounded-5">
+                  </div>
 
-        <img src="img/10.jpg" alt="ear10">
-        <img src="img/11.jpg" alt="ear11">
-        <img src="img/12.jpg" alt="ear12">
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/13.jpg" alt="earrings13" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/14.jpg" alt="earrings14" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/15.jpg" alt="earrings15" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/16.jpg" alt="earrings16" class="img-fluid rounded-5">
+                  </div>
 
-        <img src="img/13.jpg" alt="ear13">
-        <img src="img/14.jpg" alt="ear14">
-        <img src="img/15.jpg" alt="ear15">
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/17.jpg" alt="earrings17" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/18.jpg" alt="earrings18" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/19.jpg" alt="earrings19" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/20.jpg" alt="earrings20" class="img-fluid rounded-5">
+                  </div>
 
-        <img src="img/16.jpg" alt="ear16">
-        <img src="img/17.jpg" alt="ear17">
-        <img src="img/18.jpg" alt="ear18">
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/21.jpg" alt="earrings21" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/22.jpg" alt="earrings22" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/23.jpg" alt="earrings23" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/24.jpg" alt="earrings24" class="img-fluid rounded-5">
+                  </div>
 
-        <img src="img/19.jpg" alt="ear19">
-        <img src="img/20.jpg" alt="ear20">
-        <img src="img/21.jpg" alt="ear21">
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/25.jpg" alt="earrings25" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/26.jpg" alt="earrings26" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/27.jpg" alt="earrings27" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/28.jpg" alt="earrings28" class="img-fluid rounded-5">
+                  </div>
 
-        <img src="img/22.jpg" alt="ear22">
-        <img src="img/23.jpg" alt="ear23">
-        <img src="img/24.jpg" alt="ear24">
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="earrings/29.jpg" alt="earrings29" class="img-fluid rounded-5">
+                  </div>
+                </div>
+            </div>
 
-        <img src="img/25.jpg" alt="ear25">
-        <img src="img/26.jpg" alt="ear26">
-        <img src="img/27.jpg" alt="ear27">
+            <div id="carouselExample1" class="carousel slide d-md-none">
+                <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
+                    <img src="earrings/1.jpg" class="img-fluid rounded-5 col-10" alt="earrings1">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/2.jpg" class="img-fluid rounded-5 col-10" alt="earrings2">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/3.jpg" class="img-fluid rounded-5 col-10" alt="earrings3">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/4.jpg" class="img-fluid rounded-5 col-10" alt="earrings4">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/5.jpg" class="img-fluid rounded-5 col-10" alt="earrings5">
+                  </div>
+
+                  <div class="carousel-item text-center">
+                    <img src="earrings/6.jpg" class="img-fluid rounded-5 col-10" alt="earrings6">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/7.jpg" class="img-fluid rounded-5 col-10" alt="earrings7">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/8.jpg" class="img-fluid rounded-5 col-10" alt="earrings8">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/9.jpg" class="img-fluid rounded-5 col-10" alt="earrings9">
+                  </div>
+                  <div class="carousel-item text-center" id="earrings2">
+                    <img src="earrings/10.jpg" class="img-fluid rounded-5 col-10" alt="earrings10">
+                  </div>
+
+                  <div class="carousel-item text-center">
+                    <img src="earrings/11.jpg" class="img-fluid rounded-5 col-10" alt="earrings11">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/12.jpg" class="img-fluid rounded-5 col-10" alt="earrings12">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/13.jpg" class="img-fluid rounded-5 col-10" alt="earrings13">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/14.jpg" class="img-fluid rounded-5 col-10" alt="earrings14">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/15.jpg" class="img-fluid rounded-5 col-10" alt="earrings15">
+                  </div>
+                  
+                  <div class="carousel-item text-center">
+                    <img src="earrings/16.jpg" class="img-fluid rounded-5 col-10" alt="earrings16">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/17.jpg" class="img-fluid rounded-5 col-10" alt="earrings17">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/18.jpg" class="img-fluid rounded-5 col-10" alt="earrings18">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/19.jpg" class="img-fluid rounded-5 col-10" alt="earrings19">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/20.jpg" class="img-fluid rounded-5 col-10" alt="earrings20">
+                  </div>
+
+                  <div class="carousel-item text-center">
+                    <img src="earrings/21.jpg" class="img-fluid rounded-5 col-10" alt="earrings21">
+                  </div>
+                  <div class="carousel-item text-center" id="earrings2">
+                    <img src="earrings/22.jpg" class="img-fluid rounded-5 col-10" alt="earrings22">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/23.jpg" class="img-fluid rounded-5 col-10" alt="earrings23">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/24.jpg" class="img-fluid rounded-5 col-10" alt="earrings24">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/25.jpg" class="img-fluid rounded-5 col-10" alt="earrings25">
+                  </div>
+
+                  <div class="carousel-item text-center">
+                    <img src="earrings/26.jpg" class="img-fluid rounded-5 col-10" alt="earrings26">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/27.jpg" class="img-fluid rounded-5 col-10" alt="earrings27">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/28.jpg" class="img-fluid rounded-5 col-10" alt="earrings28">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="earrings/29.jpg" class="img-fluid rounded-5 col-10" alt="earrings29">
+                  </div>
+                </div>
+
+                <button class="carousel-control-prev ms-5" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next me-5" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-pendants" role="tabpanel" aria-labelledby="pills-pendants-tab" tabindex="0">
+            <div class="container text-center d-none d-md-block">
+                <div class="row">
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="pendants/1.jpg" alt="pendants1" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="pendants/2.jpg" alt="pendants2" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="pendants/3.jpg" alt="pendants3" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="pendants/4.jpg" alt="pendants4" class="img-fluid rounded-5">
+                  </div>
+
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="pendants/5.jpg" alt="pendants5" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="pendants/6.jpg" alt="pendants6" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="pendants/7.jpg" alt="pendants7" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="pendants/8.jpg" alt="pendants8" class="img-fluid rounded-5">
+                  </div>
+
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="pendants/9.jpg" alt="pendants9" class="img-fluid rounded-5">
+                  </div>
+                </div>
+            </div>
+
+            <div id="carouselExample2" class="carousel slide d-md-none">
+                <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
+                    <img src="pendants/1.jpg" class="img-fluid rounded-5 col-10" alt="pendants1">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="pendants/2.jpg" class="img-fluid rounded-5 col-10" alt="pendants2">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="pendants/3.jpg" class="img-fluid rounded-5 col-10" alt="pendants3">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="pendants/4.jpg" class="img-fluid rounded-5 col-10" alt="pendants4">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="pendants/5.jpg" class="img-fluid rounded-5 col-10" alt="pendants5">
+                  </div>
+
+                  <div class="carousel-item text-center">
+                    <img src="pendants/6.jpg" class="img-fluid rounded-5 col-10" alt="pendants6">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="pendants/7.jpg" class="img-fluid rounded-5 col-10" alt="pendants7">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="pendants/8.jpg" class="img-fluid rounded-5 col-10" alt="pendants8">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="pendants/9.jpg" class="img-fluid rounded-5 col-10" alt="pendants9">
+                  </div>
+                </div>
+
+                <button class="carousel-control-prev ms-5" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next me-5" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-bracelets" role="tabpanel" aria-labelledby="pills-bracelets-tab" tabindex="0">
+            <div class="container text-center d-none d-md-block">
+                <div class="row">
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="bracelets/1.jpg" alt="bracelets1" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="bracelets/2.jpg" alt="bracelets2" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="bracelets/3.jpg" alt="bracelets3" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="bracelets/4.jpg" alt="bracelets4" class="img-fluid rounded-5">
+                  </div>
+
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="bracelets/5.jpg" alt="bracelets5" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="bracelets/6.jpg" alt="bracelets6" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="bracelets/7.jpg" alt="bracelets7" class="img-fluid rounded-5">
+                  </div>
+                </div>
+            </div>
+
+            <div id="carouselExample3" class="carousel slide d-md-none">
+                <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
+                    <img src="bracelets/1.jpg" class="img-fluid rounded-5 col-10" alt="bracelets1">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="bracelets/2.jpg" class="img-fluid rounded-5 col-10" alt="bracelets2">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="bracelets/3.jpg" class="img-fluid rounded-5 col-10" alt="bracelets3">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="bracelets/4.jpg" class="img-fluid rounded-5 col-10" alt="bracelets4">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="bracelets/5.jpg" class="img-fluid rounded-5 col-10" alt="bracelets5">
+                  </div>
+
+                  <div class="carousel-item text-center">
+                    <img src="bracelets/6.jpg" class="img-fluid rounded-5 col-10" alt="bracelets6">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="bracelets/7.jpg" class="img-fluid rounded-5 col-10" alt="bracelets7">
+                  </div>
+                </div>
+
+                <button class="carousel-control-prev ms-5" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next me-5" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-necklaces" role="tabpanel" aria-labelledby="pills-necklaces-tab" tabindex="0">
+            <div class="container text-center d-none d-md-block">
+                <div class="row">
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="necklaces/1.jpg" alt="necklaces1" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="necklaces/2.jpg" alt="necklaces2" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="necklaces/3.jpg" alt="necklaces3" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="necklaces/4.jpg" alt="necklaces4" class="img-fluid rounded-5">
+                  </div>
+
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="necklaces/5.jpg" alt="necklaces5" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="necklaces/6.jpg" alt="necklaces6" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="necklaces/7.jpg" alt="necklaces7" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="necklaces/8.jpg" alt="necklaces8" class="img-fluid rounded-5">
+                  </div>
+
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="necklaces/9.jpg" alt="necklaces9" class="img-fluid rounded-5">
+                  </div>
+                </div>
+            </div>
+
+            <div id="carouselExample4" class="carousel slide d-md-none">
+                <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
+                    <img src="necklaces/1.jpg" class="img-fluid rounded-5 col-10" alt="necklaces1">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="necklaces/2.jpg" class="img-fluid rounded-5 col-10" alt="necklaces2">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="necklaces/3.jpg" class="img-fluid rounded-5 col-10" alt="necklaces3">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="necklaces/4.jpg" class="img-fluid rounded-5 col-10" alt="necklaces4">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="necklaces/5.jpg" class="img-fluid rounded-5 col-10" alt="necklaces5">
+                  </div>
+
+                  <div class="carousel-item text-center">
+                    <img src="necklaces/6.jpg" class="img-fluid rounded-5 col-10" alt="necklaces6">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="necklaces/7.jpg" class="img-fluid rounded-5 col-10" alt="necklaces7">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="necklaces/8.jpg" class="img-fluid rounded-5 col-10" alt="necklaces8">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="necklaces/9.jpg" class="img-fluid rounded-5 col-10" alt="necklaces9">
+                  </div>
+                </div>
+
+                <button class="carousel-control-prev ms-5" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next me-5" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-rings" role="tabpanel" aria-labelledby="pills-rings-tab" tabindex="0">
+            <div class="container text-center d-none d-md-block">
+                <div class="row">
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="rings/1.jpg" alt="rings1" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="rings/2.jpg" alt="rings2" class="img-fluid rounded-5">
+                  </div>
+                  <div class="col-4 col-lg-3 mb-4">
+                    <img src="rings/3.jpg" alt="rings3" class="img-fluid rounded-5">
+                  </div>
+                </div>
+            </div>
+
+            <div id="carouselExample5" class="carousel slide d-md-none">
+                <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
+                    <img src="rings/1.jpg" class="img-fluid rounded-5 col-10" alt="rings1">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="rings/2.jpg" class="img-fluid rounded-5 col-10" alt="rings2">
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="rings/3.jpg" class="img-fluid rounded-5 col-10" alt="rings3">
+                  </div>
+                </div>
+
+                <button class="carousel-control-prev ms-5" type="button" data-bs-target="#carouselExample5" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next me-5" type="button" data-bs-target="#carouselExample5" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
 </body>
 </html>
